@@ -30,10 +30,7 @@ public class Kafle {
 		 driver.findElement(By.linkText("Forgot password?")).click();
 		 driver.findElement(By.cssSelector("button[type='submit']")).click();
 		
-		 
-		  
-		  
-		// driver.quit();  
+		 driver.quit();  
 	    
 		  
 	} 
